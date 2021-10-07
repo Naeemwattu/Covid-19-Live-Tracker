@@ -1,0 +1,52 @@
+ /*  Basic Styling */
+ section {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+h1, p, h2 {
+    color: white;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card__main {
+    height: 150px;
+    width: 300px;
+    margin: 20px;
+    padding: 25px;
+    align-items: center;
+    background-color: rgb(163, 57, 47);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card__main:hover{
+    height: 160px;
+    width: 310px;
+    background-color: rgb(202, 72, 60);
+}
+
+.card__name{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: black;
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 30px;
+    font-weight: bold;
+
+}
